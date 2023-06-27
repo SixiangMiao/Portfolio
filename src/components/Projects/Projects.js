@@ -15,76 +15,134 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Work <strong className="purple">Experience </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col md={5} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Nuorder Platform"
+              job="Full Stack Developer"
+              time="08/2022 - Current"
+              description="• Created web app design and helped programe website using Angular 10, Angular Material with
+                          HTML5 and CSS3. Worked with various features in Angular framework like data binding, routing, custom pipes, custom
+                          directives to meet various customized requirements."
+              description2="• Used Interceptors of HttpClientModule along with UUID token in JWT for authentication and
+                          authorization. As well as Designed and developed RESTful APIs using Node.js to build high-performance and scalable backend
+                          services. And utilized database using, extended API for databases, MongoDB and Redis."
+              description3="• Achieved functionalities that use SMTP(Simple Mail Transfer Protocol) to send weekly emails to
+                            retail customers highlighting best sellers, on-hand inventory and promos.
+                            Used automated testing tools and frameworks, such as Jasmine, Karma, and Postman for unit testing
+                            and integration testing."
+              // ghLink="https://github.com/soumyajit4419/Chatify"
+              // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={5} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Cloudbeds Project Management System"
+              job="MEAN Stack Developer"
+              time="08/2021 - 08/2022"
+              description="• Designed and implemented front-end user interfaces using Angular version 9 to present real-time data
+                          of day's arrivals, departures, and reservations
+                          Worked on UI design using Angular Material, ensuring a smooth and responsive user interface.
+                          Utilized project with filters using custom pipes that could help receive an overview of sales and
+                          cancellations of property.
+                          Implemented authorization and authentication part with guard and JWT to check bearer token users
+                          hold."
+              description2="• Developed and maintained RESTful APIs using Node.js and Express.js, ensuring efficient and reliable
+                            communication between front-end and back-end systems.
+                            Established a connection between back-end APIs and front-end interface using Subject from RxJS, as
+                            well as some Machine Learning methods to make a prediction of 14-day outlook on client's revenue
+                            and occupancy.
+                            Extended functionality of back-end by developing custom RESTful API endpoints, allowing seamless
+                            integration with external systems and services."
+              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
+          {/*<Col md={5} className="project-card">*/}
+          {/*  <ProjectCard*/}
+          {/*    imgPath={editor}*/}
+          {/*    isBlog={false}*/}
+          {/*    title="Employee Sports Health Management Platform"*/}
+          {/*    job="Front-end Software Developer"*/}
+          {/*    time="05/2019 - 08/2021"*/}
+          {/*    description="• Implemented client-side validations and fetched data using Angular to communicate with RESTful*/}
+          {/*                services with JSON Data.*/}
+          {/*                Used Angular to make HTML and CSS code interact with TypeScript functions to add dynamism to*/}
+          {/*                web pages at client-side."*/}
+          {/*    description2="• Developed mobile applications using Angular Ionic framework, enabling cross-platform development*/}
+          {/*                  with a single codebase.*/}
+          {/*                  Collaborated with UI/UX designers and stakeholders to implement visually appealing and user-friendly*/}
+          {/*                  interfaces using Angular Ionic components and styles."*/}
+          {/*    // ghLink="https://github.com/soumyajit4419/Editor.io"*/}
+          {/*    // demoLink="https://editor.soumya-jit.tech/"*/}
+          {/*  />*/}
+          {/*</Col>*/}
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
+          {/*<Col md={5} className="projet-card">*/}
+          {/*  <ProjectCard*/}
+          {/*    imgPath={leaf}*/}
+          {/*    isBlog={false}*/}
+          {/*    title="Plant AI"*/}
+          {/*    job="Front-end Developer"*/}
+          {/*    time="01/2018 - 05/2019"*/}
+          {/*    description="• Took responsibilities for developing Angular UI and architecture using Angular Material.*/}
+          {/*                Involved in development of UI using HTML5, CSS3, TypeScript, Angular 7 and worked on*/}
+          {/*                framework to augment browser-based applications with MVVM capability.*/}
+          {/*                Realized functionality of checking authorized or unauthorized users using guards before application*/}
+          {/*                Worked on Angular 9 to create custom directives for information presentation and to display data in*/}
+          {/*                company standard format with different ways of measurement using custom pipe."*/}
+          {/*    // ghLink="https://github.com/soumyajit4419/Plant_AI"*/}
+          {/*    // demoLink="https://plant49-ai.herokuapp.com/"*/}
+          {/*  />*/}
+          {/*</Col>*/}
 
-          <Col md={4} className="project-card">
+          <Col md={5} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Employee Sports Health Management Platform"
+              job="Front-end Software Developer"
+              time="05/2019 - 08/2021"
+              description="• Implemented client-side validations and fetched data using Angular to communicate with RESTful
+                          services with JSON Data.
+                          Used Angular to make HTML and CSS code interact with TypeScript functions to add dynamism to
+                          web pages at client-side."
+              description2="• Developed mobile applications using Angular Ionic framework, enabling cross-platform development
+                            with a single codebase.
+                            Collaborated with UI/UX designers and stakeholders to implement visually appealing and user-friendly
+                            interfaces using Angular Ionic components and styles."
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={5} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Data intelligence project"
+              job="Front-end Developer"
+              time="01/2018 - 05/2019"
+              description="• Took responsibilities for developing Angular UI and architecture using Angular Material.
+                          Involved in development of UI using HTML5, CSS3, TypeScript, Angular 7 and worked on
+                          framework to augment browser-based applications with MVVM capability.
+                          Realized functionality of checking authorized or unauthorized users using guards before application
+                          Worked on Angular 9 to create custom directives for information presentation and to display data in
+                          company standard format with different ways of measurement using custom pipe."
+              description2="Realized broadcasting subscribed data to all clients end available using Subject and Observable.
+                          As well as Utilized whole structure for data binding of platform using ngModel directive."
+              // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
             />
           </Col>
         </Row>
