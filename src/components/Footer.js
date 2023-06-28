@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  // AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+// import {
+//   AiFillGithub,
+//   AiOutlineTwitter,
+//   AiFillInstagram,
+// } from "react-icons/ai";
+// import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -20,37 +20,37 @@ function Footer() {
           <h3>Copyright © {year} Simon Miao</h3>
         </Col>
         <Col md="4" className="footer-body">
-          <ul className="footer-icons">
-            <li className="social-icons">
-              <a
-                href="https://github.com/SixiangMiao"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillGithub />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://twitter.com/HeiChun13"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/sixiang-miao-0968ab231/"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <FaLinkedinIn />
-              </a>
-            </li>
+          {/*<ul className="footer-icons">*/}
+          {/*  <li className="social-icons">*/}
+          {/*    <a*/}
+          {/*      href="https://github.com/SixiangMiao"*/}
+          {/*      style={{ color: "white" }}*/}
+          {/*      target="_blank" */}
+          {/*      rel="noopener noreferrer"*/}
+          {/*    >*/}
+          {/*      <AiFillGithub />*/}
+          {/*    </a>*/}
+          {/*  </li>*/}
+          {/*  <li className="social-icons">*/}
+          {/*    <a*/}
+          {/*      href="https://twitter.com/HeiChun13"*/}
+          {/*      style={{ color: "white" }}*/}
+          {/*      target="_blank" */}
+          {/*      rel="noopener noreferrer"*/}
+          {/*    >*/}
+          {/*      <AiOutlineTwitter />*/}
+          {/*    </a>*/}
+          {/*  </li>*/}
+          {/*  <li className="social-icons">*/}
+          {/*    <a*/}
+          {/*      href="https://www.linkedin.com/in/sixiang-miao-0968ab231/"*/}
+          {/*      style={{ color: "white" }}*/}
+          {/*      target="_blank" */}
+          {/*      rel="noopener noreferrer"*/}
+          {/*    >*/}
+          {/*      <FaLinkedinIn />*/}
+          {/*    </a>*/}
+          {/*  </li>*/}
             {/*<li className="social-icons">*/}
             {/*  <a*/}
             {/*    href="https://www.instagram.com/soumyajit4419"*/}
@@ -61,7 +61,7 @@ function Footer() {
             {/*    <AiFillInstagram />*/}
             {/*  </a>*/}
             {/*</li>*/}
-          </ul>
+          {/*</ul>*/}
         </Col>
       </Row>
     </Container>
